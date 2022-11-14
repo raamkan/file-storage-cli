@@ -23,6 +23,8 @@ After you have node and npm in your local - please clone this CLI code into your
 
 npm install -g oclif
 
+if you face any issue while installing oclif please check your terminal permissions.
+
 npm install --save @types/axios
 
 npm install -D @types/node-fetch
