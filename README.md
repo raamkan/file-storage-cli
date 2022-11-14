@@ -22,11 +22,14 @@ After you have node and npm in your local - please clone this CLI code into your
 1. open this code in VS-CODE till folder fs-store
 
 npm install -g oclif
+
 npm install --save @types/axios
+
 npm install -D @types/node-fetch
 
 Run
 > npm link
+
 > npm run build
 
 
@@ -36,8 +39,11 @@ After successful above steps
 Run Below commands to test the application
 
 Example commands to Test:
+
 fs-store upload-file C:/Users/Raman/Downloads/Milestones.xlsx
+
 fs-store delete-file Milestones.xlsx
+
 fs-store list-files
 
 
